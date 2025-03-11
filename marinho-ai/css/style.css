@@ -1,0 +1,450 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+
+/* Seções do site */
+section {
+    padding: 4rem 1rem; /* Espaçamento para separação clara das seções */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #001f3f;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+section p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.about-section {
+    background: linear-gradient(135deg, #fff); /* Fundo degradê para um visual moderno */
+    color: #fff; /* Texto branco para contraste */
+    padding: 4rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-section h2 {
+    color: #ffffff;
+    
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.about-section .timeline {
+    margin-top: 2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    font-style: italic;
+    color: #f0f0f0;
+}
+
+
+.solutions-section {
+    background-color: #fff; /* Fundo branco para clareza */
+}
+
+.solutions-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.solutions-section ul li {
+    background-color: #f9f9f9; /* Fundo leve para separação */
+    border: 1px solid #ddd; /* Bordas suaves */
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px; /* Bordas arredondadas para suavidade visual */
+    color: #555;
+}
+
+.solutions-section ul li:hover {
+    background-color: #eef;
+    border-color: #001f3f;
+}
+
+.tech-section {
+    background-color: #eaf7ff; /* Azul claro para um visual moderno */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tech-section .tech-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.tech-section .tech-text {
+    max-width: 500px;
+    text-align: center;
+}
+
+.tech-section h2 {
+    color: #001f3f;
+}
+
+.tech-section p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.8;
+}
+
+.tech-section img {
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#fundochatgpt {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.tech-section {
+    display: flex; /* Ativa o layout flexível */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    padding: 20px; /* Adiciona espaçamento interno */
+    height: 100vh; /* Faz a seção preencher a altura da tela */
+    box-sizing: border-box; /* Inclui padding na largura/altura total */
+}
+
+.tech-content {
+    display: flex; /* Alinha texto e imagem lado a lado */
+    flex-wrap: wrap; /* Garante que o layout seja responsivo */
+    width: 100%; /* Faz o conteúdo ocupar toda a largura */
+    max-width: 1200px; /* Define uma largura máxima */
+}
+
+.tech-text {
+    flex: 1; /* Faz o texto ocupar metade do espaço */
+    padding: 20px; /* Adiciona espaçamento interno */
+    box-sizing: border-box; /* Inclui padding no tamanho total */
+}
+
+.tech-text h2 {
+    font-size: 2rem; /* Tamanho do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.tech-text p {
+    font-size: 1.2rem; /* Tamanho do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+}
+
+.tech-image {
+    flex: 1; /* Faz a imagem ocupar metade do espaço */
+    display: flex; /* Centraliza a imagem */
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Adiciona espaçamento interno */
+    box-sizing: border-box;
+    margin-left: -50px; /* Aumente o valor negativo para mover mais à esquerda */
+}
+
+
+.tech-image img {
+    max-width: 100%; /* Faz a imagem caber dentro do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Bordas arredondadas, se desejado */
+    object-fit: cover; /* Ajusta o preenchimento */
+}
+
+
+/* Cabeçalho */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001f3f;
+    padding: 1rem 2rem;
+}
+
+#logomarinho {
+    height: 50px;
+    border-radius: 8px;
+}
+
+#fundochatgpt{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+}
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .menu li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar .menu li a:hover {
+    color: #00aced;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    background-image: url('../images/fundo.jpg'); /* Caminho da sua imagem */
+    background-size: cover; /* Garante que a imagem preencha todo o espaço */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetições da imagem */
+}
+
+.banner .cta-button {
+    margin-top: 20px;
+    background-color: #00aced;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.banner .cta-button:hover {
+    background-color: #007bb5;
+}
+
+/* Seções */
+section {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-section form input, .contact-section form textarea, .contact-section form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section form button {
+    background-color: #001f3f;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-section form button:hover {
+    background-color: #00aced;
+}
+
+
+
+/* Rodapé */
+/* Estilo atualizado para o rodapé */
+footer {
+    background-color: #001f3f; /* Azul escuro para um visual profissional */
+    color: #fff; /* Texto branco para contraste */
+    text-align: center;
+    padding: 2rem 1rem; /* Espaçamento maior para uma aparência mais equilibrada */
+    font-family: Arial, sans-serif;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Sombra para um toque elegante */
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem; /* Texto ligeiramente menor para uma aparência refinada */
+    opacity: 0.8; /* Suaviza o texto para não competir com outros elementos */
+}
+
+footer .social-icons {
+    margin-top: 1rem;
+}
+
+footer .social-icons a {
+    color: #00aced; /* Azul do LinkedIn para um toque de cor */
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem; /* Maior para destacar os links */
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #007bb5; /* Alteração sutil de cor no hover para engajamento */
+}
+
+footer .social-icons a i {
+    margin-right: 8px; /* Espaço entre ícones e texto */
+}
+
+@media (max-width: 900px) {
+    .tech-section img {
+        display: none; /* Oculta as imagens */
+    }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 900px) {
+    /* Corpo do site */
+    body {
+        padding: 0 10px; /* Reduzir o espaçamento geral */
+    }
+
+    /* Cabeçalho */
+    .navbar {
+        flex-direction: column; /* Empilhar itens verticalmente */
+        align-items: flex-start; /* Alinhar à esquerda */
+        padding: 1rem;
+    }
+
+    .navbar .menu {
+        flex-direction: column; /* Menu em uma coluna */
+        gap: 10px; /* Espaçamento entre os itens */
+        margin-top: 10px;
+    }
+
+    .navbar .menu li a {
+        font-size: 0.9rem; /* Reduzir o tamanho do texto */
+    }
+
+    #logomarinho {
+        height: 40px; /* Reduzir o tamanho do logotipo */
+    }
+
+    /* Banner */
+    .banner {
+        height: auto; /* Permitir altura dinâmica */
+        padding: 2rem 1rem;
+        background-size: cover;
+    }
+
+    .banner .cta-button {
+        width: 100%; /* Botão ocupa toda a largura */
+        padding: 15px;
+    }
+
+    /* Seções Gerais */
+    section {
+        padding: 2rem 1rem;
+    }
+
+    section h2 {
+        font-size: 1.8rem; /* Reduzir tamanho dos títulos */
+    }
+
+    section p {
+        font-size: 0.9rem; /* Reduzir tamanho do texto */
+    }
+
+    /* Sobre Nós */
+    .about-section {
+        padding: 2rem 1rem;
+    }
+
+    .about-section p {
+        font-size: 1rem; /* Texto menor */
+    }
+
+    .about-section .timeline {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    /* Soluções */
+    .solutions-section ul li {
+        font-size: 0.9rem; /* Texto menor */
+    }
+
+    /* Tecnologias */
+    .tech-section {
+        flex-direction: column; /* Mudar para uma única coluna */
+        height: auto; /* Permitir altura dinâmica */
+    }
+
+    .tech-content {
+        flex-direction: column; /* Organizar conteúdo em coluna */
+        gap: 1.5rem; /* Menor espaçamento entre itens */
+    }
+
+    .tech-text {
+        text-align: center; /* Centralizar texto */
+    }
+
+    /* Contato */
+    .contact-section form {
+        width: 100%; /* Ocupa toda a largura disponível */
+    }
+
+    .contact-section form input,
+    .contact-section form textarea {
+        font-size: 0.9rem; /* Texto menor */
+    }
+
+    .contact-section form button {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    /* Rodapé */
+    footer {
+        padding: 1rem;
+        font-size: 0.8rem; /* Texto menor */
+    }
+
+    footer .social-icons a {
+        font-size: 1rem; /* Ícones menores */
+    }
+}
+
+@media (max-width: 900px) {
+    .banner {
+        background-image: none; /* Remove a imagem de fundo */
+        background-color: #001f3f; /* Substitua por uma cor de fundo, se necessário */
+    }
+}
